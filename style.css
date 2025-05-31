@@ -18,23 +18,25 @@
 body {
     font-family: 'SimpleHandmade';
     font-style: italic;
+    position: relative;
 }
 
 header {
     font-family:'EldesCordel-Demo.otf';
     background-color: black;
-    padding: 40px;
+    padding: 70px;
     color: white;
     font-style: normal;
+    text-align: center;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 8em;
 }
 
 header > p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 a {
@@ -43,26 +45,25 @@ a {
 }
 
 section > p {
-    padding: 20px;
+    padding: 80px 50px;
     font-weight: bold;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-right: 20px;
+    font-size: 4.5em;
+    line-height: 1.7em;
 }
 
-section > p:not {
-    margin-right: -20px;
+div.doisversos {
+    display: flexbox;
+    box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.336);
 }
 
 #verso1 {
     background-color: white;
-    box-shadow: 5px 5px 10px black;
 }
 
 
 #verso2 { 
     background-image: url(imagens/background001.jpg);
-    background-size: cover;
+    background-size: cover; 
     background-attachment: fixed;
     color: white
 }
@@ -72,6 +73,7 @@ section > p:not {
 }
 
 #verso4 {
+    color: white;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -88,6 +90,17 @@ footer {
     text-align: center;;
     background-color: black;
     color: white;
-    padding: 10px 10px 20px 10px;
-    font-size: 0.7em;
+    padding: 20px 20px 30px 20px;
+    font-size: 1.4em;
 }
+
+aside {
+    display: block;
+    padding: 80px 1050px 80px 30px;
+    font-weight: bold;
+    font-size: 4.5em;
+    line-height: 1.7em;
+    background-color: rgba(0, 0, 0, 0.371);
+    background-clip: content-box;
+}
+
