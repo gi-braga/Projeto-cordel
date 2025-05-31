@@ -49,10 +49,11 @@ section > p {
     font-weight: bold;
     font-size: 4.5em;
     line-height: 1.7em;
+    
 }
 
 div.doisversos {
-    display: flexbox;
+
     box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.336);
 }
 
