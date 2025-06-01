@@ -31,12 +31,13 @@ header {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 8vw;
+    font-variant: small-caps;
 }
 
 header > p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.5vw;
 }
 
 a {
@@ -44,10 +45,16 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 section > p {
-    padding: 80px 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
     font-weight: bold;
-    font-size: 4.5em;
+    font-size: 5vw;
     line-height: 1.7em;
     
 }
@@ -66,7 +73,7 @@ div.doisversos {
     background-image: url(imagens/background001.jpg);
     background-size: cover; 
     background-attachment: fixed;
-    color: white
+    color: white;
 }
 
 #verso3 {
@@ -91,15 +98,17 @@ footer {
     text-align: center;;
     background-color: black;
     color: white;
-    padding: 20px 20px 30px 20px;
-    font-size: 1.4em;
+    padding: 3vh 3vw 3vh 3vw;
+    font-size: 1.4vw;
 }
 
-aside {
-    display: block;
-    padding: 80px 1050px 80px 30px;
+aside > p{  
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 30vw;
     font-weight: bold;
-    font-size: 4.5em;
+    font-size: 5vw;
     line-height: 1.7em;
     background-color: rgba(0, 0, 0, 0.371);
     background-clip: content-box;
