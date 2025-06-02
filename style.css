@@ -24,7 +24,7 @@ body {
 header {
     font-family:'EldesCordel-Demo.otf';
     background-color: black;
-    padding: 70px;
+    padding: 8vh;
     color: white;
     font-style: normal;
     text-align: center;
@@ -37,7 +37,8 @@ h1 {
 
 header > p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    padding-top: 2vh;
+    font-size: 2vw;
 }
 
 a {
@@ -50,9 +51,9 @@ a:hover {
 }
 
 section > p {
-    padding-top: 10vh;
-    padding-bottom: 8vh;
-    padding-left: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 10vw;
     font-weight: bold;
     font-size: 4vw;
     line-height: 1.7em;
@@ -61,7 +62,6 @@ section > p {
 
 div.doisversos {
 
-    box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.336);
 }
 
 #verso1 {
@@ -71,26 +71,32 @@ div.doisversos {
 
 #verso2 { 
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
     background-size: cover; 
     background-attachment: fixed;
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.497);
 }
 
 #verso3 {
-    padding-bottom: 2vh;
+    padding-bottom: -2vh;
 
 }
 
 #verso4 {
     color: white;
+    text-shadow: 1px 1px 0px black;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.358);
 
 }
 
 #verso5 {
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
 
 }
 
@@ -101,12 +107,12 @@ footer {
     background-color: black;
     color: white;
     padding: 3vh 3vw 3vh 3vw;
-    font-size: 1.4vw;
+    font-size: 2vh;
 }
 
 aside > p{  
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     padding-left: 10vw;
     padding-right: 40vw;
     font-weight: bold;
